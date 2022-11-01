@@ -1,0 +1,81 @@
+.header {
+  height: 80px;
+  background-color: var(--main-background);
+  padding: 0 1.1rem;
+}
+
+.nav {
+  height: 100%;
+}
+
+.nav,
+.nav section:nth-child(1) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 92px;
+  height: 42.49px;
+}
+
+.menu {
+  width: 24px;
+  height: 24px;
+}
+
+.buttonText {
+  color: orange;
+  font-weight: 700;
+}
+
+.createAccountButton {
+  width: 140px;
+  height: 36px;
+  margin-left: 1.5rem;
+}
+
+.signInButton {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.buttonContainer {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonText,
+.signInButton {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .buttonContainer {
+    display: flex;
+  }
+
+  .nav section:nth-child(1) {
+    width: fit-content;
+    gap: 1rem;
+  }
+
+  .icon {
+    order: 1;
+  }
+
+  .header {
+    padding: 0px 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .createAccountButton {
+    width: 172px;
+    height: 44px;
+  }
+}

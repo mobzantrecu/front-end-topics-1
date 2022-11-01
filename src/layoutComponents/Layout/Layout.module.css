@@ -1,0 +1,26 @@
+.layoutContainer {
+  background-color: var(--main-background);
+}
+
+.main {
+  padding: 36px 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .main {
+    padding: 40px 0.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main {
+    padding: 75px 2.1rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main {
+    max-width: 1143px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,20 @@
+.button {
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.default {
+  border: 1px solid white;
+  background-color: var(--orange);
+}
+
+.outline {
+  border: 1px solid var(--orange);
+  background-color: white;
+}

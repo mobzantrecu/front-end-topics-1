@@ -1,0 +1,15 @@
+.inputContainer {
+  display: flex;
+  width: fit-content;
+  background: white;
+  align-items: center;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  color: black;
+  outline: transparent;
+  margin-left: 5px;
+  font-size: 1.1rem;
+}
