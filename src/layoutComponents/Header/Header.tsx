@@ -49,7 +49,6 @@ const MemoizedNav = React.memo(Nav);
 
 const Header = () => {
   const favoriteId = useSelector((state: RootState) => state.favorite.value);
-  console.log("Render");
   return (
     <header className={headerStyles.header}>
       <MemoizedNav />

@@ -1,3 +1,26 @@
+## Topics Covered
+
+- Efficent Responsibe design (Layout Parent chooses how to the children will render depending on screen size)
+- LayoutComponent => Component Pattern (The father changes the width or hight of the children)
+- Modifier State Pseudo Pattern => Pattern to write reusable components
+- Lazy Loading
+- Unit and E2E testing with cypress
+- Redux + Context
+- Performance improving (Using React Profiler)
+- useMemo
+- useCallback
+- react.memo
+- Typescript
+- Barrels
+- Js Curring
+- Fetch Signal (Use AbortController to avoid the "Can not update a unmounted component")
+- CSS
+- Media Queries
+- Complex Selectors
+- Variables
+- Modules
+- Grid
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
