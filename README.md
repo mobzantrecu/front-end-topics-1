@@ -6,6 +6,7 @@
 - Lazy Loading
 - Unit and E2E testing with cypress
 - Redux + Context
+- Redux thunk on toolkit
 - Performance improving (Using React Profiler)
 - useMemo
 - useCallback
@@ -21,6 +22,8 @@
 - Modules
 - Grid
 - i18n
+- Testing Playground plugin => A cool tool to create queries for testing on react
+- Some transforms and animations
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
